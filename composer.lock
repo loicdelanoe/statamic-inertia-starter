@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c725c3a59aebaa4ede3cdbbd4e810438",
+    "content-hash": "700804b843385bb01437c22036883ec6",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2593,11 +2593,17 @@
         },
         {
             "name": "loicdelanoe/statamic-inertia-adapter",
-            "version": "dev-main",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/loicdelanoe/statamic-inertia-adapter.git",
+                "reference": "a25539f6a4c23b06eeb02f48494e850a5b7e4ce2"
+            },
             "dist": {
-                "type": "path",
-                "url": "../statamic-inertia-adapter",
-                "reference": "2b79389faea0743f5d1747314454d47a97319ef7"
+                "type": "zip",
+                "url": "https://api.github.com/repos/loicdelanoe/statamic-inertia-adapter/zipball/a25539f6a4c23b06eeb02f48494e850a5b7e4ce2",
+                "reference": "a25539f6a4c23b06eeb02f48494e850a5b7e4ce2",
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0||^12.0",
@@ -2618,12 +2624,12 @@
             "type": "library",
             "extra": {
                 "laravel": {
-                    "providers": [
-                        "StatamicInertiaAdapter\\StatamicInertiaAdapter\\StatamicInertiaAdapterServiceProvider"
-                    ],
                     "aliases": {
                         "StatamicInertiaAdapter": "StatamicInertiaAdapter\\StatamicInertiaAdapter\\Facades\\StatamicInertiaAdapter"
-                    }
+                    },
+                    "providers": [
+                        "StatamicInertiaAdapter\\StatamicInertiaAdapter\\StatamicInertiaAdapterServiceProvider"
+                    ]
                 }
             },
             "autoload": {
@@ -2632,32 +2638,7 @@
                     "StatamicInertiaAdapter\\StatamicInertiaAdapter\\Database\\Factories\\": "database/factories/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "StatamicInertiaAdapter\\StatamicInertiaAdapter\\Tests\\": "tests/",
-                    "Workbench\\App\\": "workbench/app/"
-                }
-            },
-            "scripts": {
-                "post-autoload-dump": [
-                    "@composer run prepare"
-                ],
-                "prepare": [
-                    "@php vendor/bin/testbench package:discover --ansi"
-                ],
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ],
-                "format": [
-                    "vendor/bin/pint"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2675,10 +2656,17 @@
                 "laravel",
                 "statamic-inertia-adapter"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/loicdelanoe/statamic-inertia-adapter/issues",
+                "source": "https://github.com/loicdelanoe/statamic-inertia-adapter/tree/v0.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Loïc Delanoë",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-01-08T14:26:58+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -10587,9 +10575,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "loicdelanoe/statamic-inertia-adapter": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
