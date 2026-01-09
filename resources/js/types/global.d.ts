@@ -8,11 +8,25 @@ export interface NavigationItem {
     url: string;
 }
 
+export interface Site {
+    handle: string;
+    name: string;
+    lang: string;
+    locale: string;
+    short_locale: string;
+    url: string;
+    permalink: string;
+    direction: string;
+    attributes: Record<string, string>;
+    related_page: string;
+}
+
 declare module '@inertiajs/core' {
     interface PageProps extends InertiaPageProps {
         navigations: Record<string, NavigationItem[]>;
         globals: any;
         old: any;
         csrf: string;
+        sites: Record<string, Site>;
     }
 }
