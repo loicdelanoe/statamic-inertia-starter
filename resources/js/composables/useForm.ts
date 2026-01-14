@@ -32,6 +32,7 @@ export const useForm = (form: Form) => {
     });
 
     const onSubmit = async () => {
+        ajaxSuccess.value = false;
         clientErrors.value = {};
 
         processing.value = true;
@@ -48,11 +49,13 @@ export const useForm = (form: Form) => {
         } finally {
             processing.value = false;
 
-            formData.value = {
-                ...initialFormValues,
-                _token: old._token ?? csrf,
-                [form.honeypot]: '',
-            };
+            if (success.value) {
+                formData.value = {
+                    ...initialFormValues,
+                    _token: old._token ?? csrf,
+                    [form.honeypot]: '',
+                };
+            }
 
             if (redirect.value) {
                 router.visit(redirect.value);
