@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2abae46b5a3bc6d8ca2017fa7c3a4cd0",
+    "content-hash": "2136dead0788c7c0b367b576b79f429b",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -2593,16 +2593,16 @@
         },
         {
             "name": "loicdelanoe/statamic-inertia-adapter",
-            "version": "v0.0.3",
+            "version": "v0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/loicdelanoe/statamic-inertia-adapter.git",
-                "reference": "3e46a73faa57517c78572aecfc282e3b8c8ce8ad"
+                "reference": "d7f5f324c22f2a2e027601c35d3271d1c000a963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/loicdelanoe/statamic-inertia-adapter/zipball/3e46a73faa57517c78572aecfc282e3b8c8ce8ad",
-                "reference": "3e46a73faa57517c78572aecfc282e3b8c8ce8ad",
+                "url": "https://api.github.com/repos/loicdelanoe/statamic-inertia-adapter/zipball/d7f5f324c22f2a2e027601c35d3271d1c000a963",
+                "reference": "d7f5f324c22f2a2e027601c35d3271d1c000a963",
                 "shasum": ""
             },
             "require": {
@@ -2658,7 +2658,7 @@
             ],
             "support": {
                 "issues": "https://github.com/loicdelanoe/statamic-inertia-adapter/issues",
-                "source": "https://github.com/loicdelanoe/statamic-inertia-adapter/tree/v0.0.3"
+                "source": "https://github.com/loicdelanoe/statamic-inertia-adapter/tree/v0.0.4"
             },
             "funding": [
                 {
@@ -2666,7 +2666,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-14T14:45:12+00:00"
+            "time": "2026-01-14T15:29:10+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
