@@ -10,6 +10,26 @@ This starter kit provides a basic setup for building Statamic projects with Iner
 
 If you want to use another front-end framework such as React or Svelte, you may visit the [official Inertia.js documentation](https://inertiajs.com/) and the [Statamic documentation](https://statamic.dev/) for more information. It is planned to support other front-end frameworks in the future.
 
+# Installation
+
+You can install this starter kit in two ways:
+
+### Using Laravel
+
+Run the following command to create a new Laravel project with the starter kit:
+
+```bash
+laravel new --using loicdelanoe/statamic-inertia-starter
+```
+
+### Using Composer
+
+Alternatively, you can create a new project via Composer:
+
+```bash
+composer create-project loicdelanoe/statamic-inertia-starter
+```
+
 # Usage
 
 ## Forms
