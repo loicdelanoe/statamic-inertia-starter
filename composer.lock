@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "700804b843385bb01437c22036883ec6",
+    "content-hash": "2abae46b5a3bc6d8ca2017fa7c3a4cd0",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1692,16 +1692,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.3.8",
+            "version": "v0.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "096748cdfb81988f60090bbb839ce3205ace0d35"
+                "reference": "5c41bf0555b7cfefaad4e66d3046675829581ac4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/096748cdfb81988f60090bbb839ce3205ace0d35",
-                "reference": "096748cdfb81988f60090bbb839ce3205ace0d35",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/5c41bf0555b7cfefaad4e66d3046675829581ac4",
+                "reference": "5c41bf0555b7cfefaad4e66d3046675829581ac4",
                 "shasum": ""
             },
             "require": {
@@ -1745,22 +1745,22 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.3.8"
+                "source": "https://github.com/laravel/prompts/tree/v0.3.9"
             },
-            "time": "2025-11-21T20:52:52+00:00"
+            "time": "2026-01-07T21:00:29+00:00"
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v2.0.7",
+            "version": "v2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "cb291e4c998ac50637c7eeb58189c14f5de5b9dd"
+                "reference": "7581a4407012f5f53365e11bafc520fd7f36bc9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/cb291e4c998ac50637c7eeb58189c14f5de5b9dd",
-                "reference": "cb291e4c998ac50637c7eeb58189c14f5de5b9dd",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/7581a4407012f5f53365e11bafc520fd7f36bc9b",
+                "reference": "7581a4407012f5f53365e11bafc520fd7f36bc9b",
                 "shasum": ""
             },
             "require": {
@@ -1808,7 +1808,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2025-11-21T20:52:36+00:00"
+            "time": "2026-01-08T16:22:46+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2593,16 +2593,16 @@
         },
         {
             "name": "loicdelanoe/statamic-inertia-adapter",
-            "version": "v0.0.1",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/loicdelanoe/statamic-inertia-adapter.git",
-                "reference": "a25539f6a4c23b06eeb02f48494e850a5b7e4ce2"
+                "reference": "3e46a73faa57517c78572aecfc282e3b8c8ce8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/loicdelanoe/statamic-inertia-adapter/zipball/a25539f6a4c23b06eeb02f48494e850a5b7e4ce2",
-                "reference": "a25539f6a4c23b06eeb02f48494e850a5b7e4ce2",
+                "url": "https://api.github.com/repos/loicdelanoe/statamic-inertia-adapter/zipball/3e46a73faa57517c78572aecfc282e3b8c8ce8ad",
+                "reference": "3e46a73faa57517c78572aecfc282e3b8c8ce8ad",
                 "shasum": ""
             },
             "require": {
@@ -2658,7 +2658,7 @@
             ],
             "support": {
                 "issues": "https://github.com/loicdelanoe/statamic-inertia-adapter/issues",
-                "source": "https://github.com/loicdelanoe/statamic-inertia-adapter/tree/v0.0.1"
+                "source": "https://github.com/loicdelanoe/statamic-inertia-adapter/tree/v0.0.3"
             },
             "funding": [
                 {
@@ -2666,7 +2666,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-08T14:26:58+00:00"
+            "time": "2026-01-14T14:45:12+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -4614,16 +4614,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v5.70.0",
+            "version": "v5.72.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "4cc7da4dad596e4270d7c1c4f20909906cf9273c"
+                "reference": "f180fc3f5462ae703c85fcd8813e61232aff2117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/4cc7da4dad596e4270d7c1c4f20909906cf9273c",
-                "reference": "4cc7da4dad596e4270d7c1c4f20909906cf9273c",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/f180fc3f5462ae703c85fcd8813e61232aff2117",
+                "reference": "f180fc3f5462ae703c85fcd8813e61232aff2117",
                 "shasum": ""
             },
             "require": {
@@ -4632,7 +4632,7 @@
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
                 "james-heinrich/getid3": "^1.9.21",
-                "laravel/framework": "^10.48.29 || ^11.44.1 || ^12.1.1",
+                "laravel/framework": "^10.48.29 || ^11.44.1 || ^12.40.0",
                 "laravel/prompts": "^0.1.16 || ^0.2.0 || ^0.3.0",
                 "league/commonmark": "^2.2",
                 "league/csv": "^9.0",
@@ -4662,9 +4662,10 @@
                 "google/cloud-translate": "^1.6",
                 "laravel/pint": "1.16.0",
                 "mockery/mockery": "^1.6.10",
-                "orchestra/testbench": "^8.14 || ^9.2 || ^10.0",
+                "orchestra/testbench": "^8.36 || ^9.15 || ^10.8",
                 "phpunit/phpunit": "^10.5.35 || ^11.5.3",
-                "spatie/laravel-ray": "^1.37"
+                "sebastian/recursion-context": "^5.0.1 || ^6.0.3",
+                "spatie/laravel-ray": "^1.42"
             },
             "type": "library",
             "extra": {
@@ -4717,7 +4718,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v5.70.0"
+                "source": "https://github.com/statamic/cms/tree/v5.72.0"
             },
             "funding": [
                 {
@@ -4725,7 +4726,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-03T18:32:28+00:00"
+            "time": "2026-01-13T20:09:36+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -8132,12 +8133,12 @@
             "version": "v3.16.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/barryvdh/laravel-debugbar.git",
+                "url": "https://github.com/fruitcake/laravel-debugbar.git",
                 "reference": "c91e57ea113edd6526f5b8cd6b1c6ee02c67b28e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/c91e57ea113edd6526f5b8cd6b1c6ee02c67b28e",
+                "url": "https://api.github.com/repos/fruitcake/laravel-debugbar/zipball/c91e57ea113edd6526f5b8cd6b1c6ee02c67b28e",
                 "reference": "c91e57ea113edd6526f5b8cd6b1c6ee02c67b28e",
                 "shasum": ""
             },
@@ -8197,8 +8198,8 @@
                 "webprofiler"
             ],
             "support": {
-                "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.16.3"
+                "issues": "https://github.com/fruitcake/laravel-debugbar/issues",
+                "source": "https://github.com/fruitcake/laravel-debugbar/tree/v3.16.3"
             },
             "funding": [
                 {
