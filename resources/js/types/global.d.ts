@@ -21,6 +21,11 @@ export interface Site {
     related_page: string;
 }
 
+export type FormFlash = {
+    success?: string;
+    submission_created?: boolean;
+};
+
 declare module '@inertiajs/core' {
     interface PageProps extends InertiaPageProps {
         navigations: Record<string, NavigationItem[]>;
@@ -28,5 +33,6 @@ declare module '@inertiajs/core' {
         old: any;
         csrf: string;
         sites: Record<string, Site>;
+        flashForm: Record<string, FormFlash>;
     }
 }
