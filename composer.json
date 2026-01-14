@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "loicdelanoe/statamic-inertia-starter",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": [
