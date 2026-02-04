@@ -1,7 +1,7 @@
 <?php
 
-use App\Support\InertiaResponseCacheProfile;
 use App\Support\InertiaResponseCacheHasher;
+use App\Support\InertiaResponseCacheProfile;
 
 return [
     /*
