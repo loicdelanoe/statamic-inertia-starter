@@ -1,5 +1,10 @@
+@php
+use Statamic\Facades\Site;
+@endphp
+
+
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', Site::current()->locale) }}">
 
 <head>
     <meta charset="utf-8">
