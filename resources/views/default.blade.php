@@ -9,7 +9,7 @@
     @inertiaHead
 </head>
 
-<body class="bg-slate-100 dark:bg-gray-800 font-sans leading-normal text-slate-800 dark:text-gray-400">
+<body class="bg-zinc-100 dark:bg-zinc-900 font-sans leading-normal text-zinc-800 dark:text-zinc-400">
     @inertia
 </body>
 
